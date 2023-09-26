@@ -1,0 +1,85 @@
+header{
+  display: flex;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  z-index: 100;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+ }
+ . logo{
+  display: flex;
+  padding: 20px;
+  margin: 20px; 
+
+ }
+
+ .logo img{
+  height: 60px;
+ }
+ body{
+  width:98%;
+  margin:0px auto;
+}
+ @media (max-width: 600px) 
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+  .contenido {
+    padding-top: 80px;
+    align-content: center;
+
+  }
+  footer {
+    color:#f5eded;
+    margin-top:5px;
+    margin-bottom:10px;
+    background-color: #060708;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+h6 {
+  color: #e9eee8;
+}
+.button_slide {
+  color: #FFF;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 #D80286;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #D80286;
+}
+
+.slide_left:hover {
+  box-shadow: inset 0 0 0 50px #D80286;
+}
+
+.slide_diagonal:hover {
+  box-shadow: inset 400px 50px 0 0 #D80286;
+}
+
+#outer {
+  width: 364px;
+  margin: 50px auto 0 auto;
+  text-align: left;
+}
+h5 {
+  color: #8a0505;
+}
